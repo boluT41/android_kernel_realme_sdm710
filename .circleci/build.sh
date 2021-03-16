@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Cloning dependencies"
-git clone --depth=1 https://github.com/boluT41/android_kernel_realme_sdm710 -b  kernel
+git clone --depth=1 https://github.com/boluT41/android_kernel_realme_sdm710 -b lineage-18.1 kernel
 cd kernel
 git clone --depth=1 https://github.com/mvaisakh/gcc-arm64 -b lld-integration gcc64
 git clone --depth=1 https://github.com/mvaisakh/gcc-arm -b lld-integration gcc32
